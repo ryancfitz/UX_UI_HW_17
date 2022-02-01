@@ -3,12 +3,6 @@
     vertical-align: top;
 }
 
-.logo {
-    width: 23%;
-    padding: 1%;
-    text-align: center;
-}
-
 nav {
     width: 73%;
     padding: 1%;
@@ -18,38 +12,71 @@ ul {
     width: 50%;
     margin-right: auto;
     word-spacing: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-family: Karla, Arial, sans-serif;
+    font-size: 28px;
 }
 
 .heroImg {
-    height: 800px;
-    padding: 25px;
+    height: 1200px;
 }
 
-.content {
+.row {
+    display: flex;
+  }
+
+.column {
     width: 500px;
-    margin: 0 auto;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    font-family: Karla, Arial, sans-serif;
+    font-size: 26px;
+  }
+
+.h1 {
+    font-size: 45px;
+    color: gray;
+    height: 0px;
 }
 
-button {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    background-color: turquoise;
-    padding: 15px;  
+.name {
+    font-size: 85px;
+    font-family: architects daughter;
+    height: 200px;
 }
 
 footer {
-    background-color: #373738;
-
+    margin: auto;
+    width: 50%;
+    padding-top: 125px;
+    text-align: center;
+    color: rgb(43, 37, 37);
+    height: 50px;
 }
 
-.footer {
-    display: inline-block;
-    vertical-align: top;
+button {
+    border-radius: 12px;
+    border-color: #00ABA3;
+    background-color: #00ABA3;
+    margin: 0 auto;
+    font-family: Karla, Arial, sans-serif;
+    font-size: 30px;
     color: white;
-    height: 50px;
-    word-spacing: 20px;
+    padding: 25px;
+    width: 250px;
+}
+
+button:hover {
+    background-color: tomato;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24);
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+p {
+    font-family: Karla, Arial, sans-serif;
+    font-size: 16px;  
 }
